@@ -1,0 +1,64 @@
+/*Section 1 & Video*/
+.header {
+  width:100%;
+  height: 730px;
+  max-height: 1024px;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.header__video-wrapp  {
+  position:absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; 
+}
+.header__video-box {
+  margin: 0;
+  height: 100%;
+}
+.header__video {
+  display: inline-block;
+  vertical-align: top;
+  min-height: 768px;
+  background: url(../video/screen.png) 100% 100% no-repeat;
+}
+.header__video-title{
+	text-shadow: 2px 2px 2px rgba(0,0,0, .5);
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	float: right;
+	color: #fff;
+  position: relative;
+  padding:2%;
+  text-align: right;
+}
+.header__video-title h1{
+	text-transform: uppercase;
+	font-size: 50px;
+}
+.header__video-title p{
+	padding: 15px 0;
+	font-size: 35px;
+}
+.header i{
+	position: absolute;
+	float: left;
+	color: #3DC9B3;
+	opacity: .6;
+	padding: 0 0 0 20px;
+  bottom: 2%;
+  -webkit-transition: -webkit-all .7s ease;
+  -moz-transition: -moz-all .7s ease;
+  -o-transition: -o-all .7s ease;
+  transition:all .7s ease;
+}
+.header i:hover{
+	opacity:1;
+	text-shadow:2px 2px 2px #309383;
+}
+.stopfade { 
+  opacity: .5;
+}
