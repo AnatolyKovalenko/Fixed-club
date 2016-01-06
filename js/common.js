@@ -26,6 +26,26 @@ $(function() {
 		 });
   	}  
 	});
+
+	//Video pause
+	var vid = $('#headerVideo'),
+	 		pauseButton = $('#pause');	
+	pauseButton.on('click', bPlay);
+	function playVid(){
+		vid[0].play();
+	}
+	function pauseVid(){
+		vid[0].pause();
+	}
+	function bPlay(){
+		if(!pauseButton.hasClass('fa fa-play fa-4x')){
+			pauseVid();
+			pauseButton.removeClass().addClass('fa fa-play fa-4x');
+		} else {
+			playVid();
+			pauseButton.removeClass().addClass('fa fa-pause fa-4x');
+		}
+	}
 		
 });
 	
