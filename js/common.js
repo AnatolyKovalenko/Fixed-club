@@ -7,26 +7,6 @@ $(function() {
 		navMenu.slideToggle();
 	});
   
-  //Footer wheel
-	$('#bic').on({
-   	mouseenter: function() {
-		  $(this).css({
-				'-webkit-transform':'rotate(720deg)',
-		    '-moz-transform':'rotate(720deg)',
-		   	'-o-transform':'rotate(720deg)',
-		   	'transform':'rotate(720deg)'
-	    });
-  	},
-	  mouseleave: function() {
-		  $(this).css({
-				'-webkit-transform':'rotate(0deg)',
-		   	'-moz-transform':'rotate(0deg)',
-		 		'-o-transform':'rotate(0deg)',
-		   	'transform':'rotate(0deg)'
-		 });
-  	}  
-	});
-
 	//Video pause
 	var vid = $('#headerVideo'),
 	 		pauseButton = $('#pause');	
@@ -46,6 +26,49 @@ $(function() {
 			pauseButton.removeClass().addClass('fa fa-pause fa-4x');
 		}
 	}
+
+	//Section 2
+	var grid = $('.grid');
+	addGridListeners();
+	function addGridListeners() {
+		grid.find('li').each(function() {
+			var el = $(this);
+			el.on({
+				mouseenter: onItemOver,
+				mouseleave: onItemOut
+			});
+		});
+	}
+	function onItemOver(e){
+		var cur = $(e.currentTarget);
+		if (!cur.children('div').hasClass('on')) 
+				cur.children('div').addClass('on');	
+	}
+	function onItemOut(e){
+		var cur = $(e.currentTarget);
+		if (cur.children('div').hasClass('on')) 
+				cur.children('div').removeClass('on');	
+	}
+
+	//Footer wheel
+	$('#bic').on({
+   	mouseenter: function() {
+		  $(this).css({
+				'-webkit-transform':'rotate(720deg)',
+		    '-moz-transform':'rotate(720deg)',
+		   	'-o-transform':'rotate(720deg)',
+		   	'transform':'rotate(720deg)'
+	    });
+  	},
+	  mouseleave: function() {
+		  $(this).css({
+				'-webkit-transform':'rotate(0deg)',
+		   	'-moz-transform':'rotate(0deg)',
+		 		'-o-transform':'rotate(0deg)',
+		   	'transform':'rotate(0deg)'
+		 });
+  	}  
+	});
 		
 });
 	
