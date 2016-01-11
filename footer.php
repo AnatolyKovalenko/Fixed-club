@@ -51,6 +51,8 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 	<script src="<?php bloginfo("template_directory"); ?>/libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="<?php bloginfo("template_directory"); ?>/libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="<?php bloginfo("template_directory"); ?>/libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="<?php bloginfo("template_directory"); ?>/js/common.js"></script>
 
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->

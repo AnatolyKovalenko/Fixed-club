@@ -83,5 +83,125 @@
 		</div>
 	</section>
 
+	<!--Section 3-->
+	<section class="three">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2> 
+						Возникли вопросы ?
+					</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Section 4-->
+	<section class="four">
+		<a href="#callback" class="but fancybox">
+			заказать звонок
+		</a>
+		<div class="arrow">
+		</div>
+		<div class="container-fluid">
+			<i class="fa fa-angle-right next_button">
+			</i>
+			<i class="fa fa-angle-left prev_button">
+			</i>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="carousel">
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/1.jpg">
+					  	<p>
+					  		25000 грн
+					  	</p>
+					  </div>
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/2.jpg">
+					  	<p>
+					  		16000 грн
+					  	</p>
+					  </div>
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/3.jpg">
+					  	<p>
+					  		23000 грн
+					  	</p>
+					  </div>
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/4.jpg">
+					  	<p>
+					  		22000 грн
+					  	</p>
+					  </div>
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/5.jpg">
+					  	<p>
+					  		21000 грн
+					  	</p>
+					  </div>
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/6.jpg">
+					  	<p>
+					  		20000 грн
+					  	</p>
+					  </div>
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/7.jpg">
+					  	<p>
+					  		23500 грн
+					  	</p>
+					  </div>
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/8.jpg">
+					  	<p>
+					  		22400 грн
+					  	</p>
+					  </div>
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/9.jpg">
+					  	<p>
+					  		24100 грн
+					  	</p>
+					  </div>
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/10.jpg">
+					  	<p>
+					  		22300 грн
+					  	</p>
+					  </div>
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/11.jpg">
+					  	<p>
+					  		25500 грн
+					  	</p>
+					  </div>
+					  <div class="slide-item">
+					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/12.jpg">
+					  	<p>
+					  		21000 грн
+					  	</p>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!--Hidden content-->
+	<div class="hidden">
+		<form id="callback" class="pop-form">
+			<h3>
+				Заказать обрaтный звонок
+			</h3>
+			<input type="text" name="name" placeholder="Ваше имя..." required/>
+			<input type="text" name="phone"placeholder=" Ваш телефон... "required/>
+			<button class="but" type="submit">
+				Заказать
+			</button>
+		</form>
+	</div>
+
 <!--Footer-->
 <?php get_footer();?>

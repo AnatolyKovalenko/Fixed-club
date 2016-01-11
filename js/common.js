@@ -50,6 +50,28 @@ $(function() {
 				cur.children('div').removeClass('on');	
 	}
 
+	//Slider
+	var owl = $(".carousel"),
+			nextButton = $(".next_button"),
+			prevButton = $(".prev_button");
+	owl.owlCarousel({
+		items: 1,
+		itemsDesktop : [1024,1],
+		itemsDesktopSmall : [980,1],
+	  itemsTablet: [768,1],
+	  itemsTabletSmall: false,
+	  itemsMobile : [479,1],
+		autoPlay:3000,
+		stopOnHover:true,
+		transitionStyle:"fade"
+	});
+	nextButton.on('click',function() {
+		owl.trigger("owl.next");
+	});
+	prevButton.on('click',function() {	
+		owl.trigger("owl.prev");	
+	});
+
 	//Footer wheel
 	$('#bic').on({
    	mouseenter: function() {

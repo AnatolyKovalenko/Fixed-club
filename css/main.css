@@ -4,8 +4,14 @@
 @import url(../libs/font-awesome-4.2.0/css/font-awesome.min.css);
 /*Bootstrap grid*/
 @import url(../libs/bootstrap/bootstrap-grid-3.3.1.min.css);
+/*Fancybox*/
+@import url(../libs/fancybox/jquery.fancybox.css);
+/*Owl carousel*/
+@import url(../libs/owl-carousel/owl.carousel.css);
+@import url(../libs/owl-carousel/owl.transitions.css);
 /*Home-page*/
 @import url(home.css);
+
 *::-webkit-input-placeholder {
 	color: #999999;
 	opacity: 1;
