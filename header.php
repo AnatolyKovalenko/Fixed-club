@@ -13,8 +13,36 @@
 	<link rel="shortcut icon" href="<?php bloginfo("template_directory"); ?>/images/2.png" />
 	<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/main.css"/>
 	<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/media.css"/>
+	
+	<!--Preloader style-->
+	<style>
+		#page-preloader {
+		    position: fixed;
+		    left: 0;
+		    top: 0;
+		    right: 0;
+		    bottom: 0;
+		    background: #000;
+		    z-index: 100500;
+		}
+		#page-preloader .spinner {
+		  	width: 64px;
+		  	height: 64px;
+		  	position: absolute;
+		  	left: 50%;
+		  	top: 50%;
+		  	background: url('<?php bloginfo("template_directory");?>/images/spinner.gif') no-repeat 50% 50%;
+		  	margin: -16px 0 0 -16px;
+		}
+	</style>
 </head>
 <body>
+
+	<!--Preloader-->
+	<div id="page-preloader">
+		<span class="spinner">
+		</span>
+	</div>
 
 	<!--Menu-->
 	<header>

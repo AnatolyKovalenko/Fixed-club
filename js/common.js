@@ -91,9 +91,27 @@ $(function() {
 		 });
   	}  
 	});
-		
+	
+	//Top button
+	var win = $(window),
+			topScroll = $('.scrollToTop');
+	win.scroll(function() {
+	    if ($(this).scrollTop() > 100) {
+	    	topScroll.fadeIn();
+	    } 
+	    else {
+	    	topScroll.fadeOut();
+	    }
+ 	});  
+  	topScroll.click(function(){
+		$("body, html").animate({
+			scrollTop: 0
+		}, 800);
+		return false;
+	});	
+	
 });
-	
-	
+
+
 	
 	

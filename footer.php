@@ -44,6 +44,12 @@
 		</div>
 	</footer>
 	
+	<!--Up button-->
+	<a href="#" class="scrollToTop">
+		<i class="fa fa-arrow-circle-o-up fa-4x">
+		</i>
+	</a>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -54,7 +60,15 @@
 	<script src="<?php bloginfo("template_directory"); ?>/libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="<?php bloginfo("template_directory"); ?>/libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="<?php bloginfo("template_directory"); ?>/js/common.js"></script>
-
+	<!--Preloader JS-->
+	<script type="text/javascript">
+		$(window).on('load', function () {
+	    var $preloader = $('#page-preloader'),
+	        $spinner   = $preloader.find('.spinner');
+	    $spinner.fadeOut();
+	    $preloader.delay(350).fadeOut('slow');
+		});
+	</script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
