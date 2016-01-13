@@ -11,6 +11,8 @@
 @import url(../libs/owl-carousel/owl.transitions.css);
 /*Home-page*/
 @import url(home.css);
+/*Gallery-page*/
+@import url(gallery.css);
 
 *::-webkit-input-placeholder {
 	color: #999999;

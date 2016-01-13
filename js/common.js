@@ -112,6 +112,24 @@ $(function() {
 	
 });
 
+//Fancybox gallery
+  var fancy = $(".fancybox"),
+  		divTitle = $("#fancyboxTitles div");
+  fancy.fancybox({
+  	padding : 0, 
+		overlayOpacity : 0.45,
+		openEffect  : 'elastic',
+    closeEffect : 'elastic',
+    helpers : {
+    	title : {
+    		type : 'over'
+    	}
+    },
+    beforeShow : function() {
+      this.title = divTitle.eq(this.index).html();
+    }
+  });
+
 
 	
 	
