@@ -13,6 +13,8 @@
 @import url(home.css);
 /*Gallery-page*/
 @import url(gallery.css);
+/*Info-page*/
+@import url(info.css);
 
 *::-webkit-input-placeholder {
 	color: #999999;
