@@ -17,6 +17,8 @@
 @import url(info.css);
 /*Delivery-and-payment*/
 @import url(delivery-and-payment.css);
+/*Contact-page*/
+@import url(contact.css);
 
 *::-webkit-input-placeholder {
 	color: #999999;

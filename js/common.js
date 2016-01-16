@@ -109,8 +109,6 @@ $(function() {
 		}, 800);
 		return false;
 	});	
-	
-});
 
 //Fancybox gallery
   var fancy = $(".fancybox"),
@@ -129,6 +127,17 @@ $(function() {
       this.title = divTitle.eq(this.index).html();
     }
   });
+  
+//Contact form 
+  $('.container-bg.form').mousemove(function(e){
+	  var amountMovedX = (e.pageX * -1 / 30),
+	     	amountMovedY = (e.pageY * -1 / 9);
+    $(this).css(
+    	'background-position',
+    	amountMovedX + 'px ' + amountMovedY + 'px');
+	});
+
+});
 
 
 	
