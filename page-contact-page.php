@@ -59,10 +59,17 @@
 					<div class="col-md-12">
 						<div class="content-box">
 							<div class="container-text left">
-								<form class="contact-form">
+								<form class="callback contact-form">
 									<h3>
 										Оставьте ваши данные и мы с вами свяжемся
 									</h3>
+									
+									<!-- Hidden Required Fields -->
+									<input type="hidden" name="project_name" value="Fixed club">
+									<input type="hidden" name="admin_email" value="fixed-club@rambler.ru">
+									<input type="hidden" name="form_subject" value="Callback">
+			
+									<!-- END Hidden Required Fields -->
 									<input type="text" name="name" placeholder=" Ваше имя" required/>
 									<input type="text" name="mail" placeholder=" Ваш почтовый ящик" required/>
 									<input type="text" name="phone" placeholder=" Ваш телефон"required/>

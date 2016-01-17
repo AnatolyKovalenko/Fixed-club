@@ -98,7 +98,7 @@
 
 	<!--Section 4-->
 	<section class="four">
-		<a href="#callback" class="but fancybox">
+		<a href="#form" class="but fancybox">
 			заказать звонок
 		</a>
 		<div class="arrow">
@@ -191,10 +191,17 @@
 	
 	<!--Hidden content-->
 	<div class="hidden">
-		<form id="callback" class="pop-form">
+		<form  id = "form" class="callback pop-form">
 			<h3>
 				Заказать обрaтный звонок
 			</h3>
+
+			<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="Fixed club">
+			<input type="hidden" name="admin_email" value="fixed-club@rambler.ru">
+			<input type="hidden" name="form_subject" value="Callback">
+
+			<!-- END Hidden Required Fields -->
 			<input type="text" name="name" placeholder="Ваше имя..." required/>
 			<input type="text" name="phone"placeholder=" Ваш телефон... "required/>
 			<button class="but" type="submit">

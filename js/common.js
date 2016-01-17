@@ -137,6 +137,25 @@ $(function() {
     	amountMovedX + 'px ' + amountMovedY + 'px');
 	});
 
+//E-mail Ajax Send
+	$(".callback").submit(function() { 
+		var cb = $(this);
+		$.ajax({
+			type: "GET",
+			url: "../../mail.php", 
+			data: cb.serialize()
+		}).done(function() {
+				alert("Спасибо за заявку!");
+				setTimeout(function() {
+					$.fancybox.close();
+					cb.trigger("reset");
+				}, 1000);
+		}).error(function() {
+      	alert("Упс...! Что-то пошло не так");
+    });  
+		return false;	
+	});
+
 });
 
 
