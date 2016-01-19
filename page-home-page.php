@@ -111,10 +111,10 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="carousel">
-					  <div class="slide-item">
+					   <div class="slide-item">
 					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/1.jpg">
 					  	<p>
-					  		25000 грн
+					  		18000 грн
 					  	</p>
 					  </div>
 					  <div class="slide-item">
@@ -126,61 +126,61 @@
 					  <div class="slide-item">
 					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/3.jpg">
 					  	<p>
-					  		23000 грн
+					  		12000 грн
 					  	</p>
 					  </div>
 					  <div class="slide-item">
 					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/4.jpg">
 					  	<p>
-					  		22000 грн
+					  		11000 грн
 					  	</p>
 					  </div>
 					  <div class="slide-item">
 					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/5.jpg">
 					  	<p>
-					  		21000 грн
+					  		10000 грн
 					  	</p>
 					  </div>
 					  <div class="slide-item">
 					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/6.jpg">
 					  	<p>
-					  		20000 грн
+					  		12000 грн
 					  	</p>
 					  </div>
 					  <div class="slide-item">
 					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/7.jpg">
 					  	<p>
-					  		23500 грн
+					  		13000 грн
 					  	</p>
 					  </div>
 					  <div class="slide-item">
 					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/8.jpg">
 					  	<p>
-					  		22400 грн
+					  		13000 грн
 					  	</p>
 					  </div>
 					  <div class="slide-item">
 					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/9.jpg">
 					  	<p>
-					  		24100 грн
+					  		20000 грн
 					  	</p>
 					  </div>
 					  <div class="slide-item">
 					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/10.jpg">
 					  	<p>
-					  		22300 грн
+					  		13000 грн
 					  	</p>
 					  </div>
 					  <div class="slide-item">
 					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/11.jpg">
 					  	<p>
-					  		25500 грн
+					  		12500 грн
 					  	</p>
 					  </div>
 					  <div class="slide-item">
 					  	<img src="<?php bloginfo("template_directory"); ?>/gallery/big/12.jpg">
 					  	<p>
-					  		21000 грн
+					  		12000 грн
 					  	</p>
 					  </div>
 					</div>

@@ -5,15 +5,15 @@
 	margin: 100px 0;
 }
 
-.container-back.data{
+.container-back.data {
 	margin: 100px 0 0;
 }
 .data .container-text {
 	text-align: center;
 }
-.content-box{
+.content-box {
 	position: relative;
-    overflow: hidden;
+  overflow: hidden;
 }
 .container-bg {
   float: left;
@@ -35,13 +35,13 @@
 	padding: 15px;
 	margin: 0 auto;
 }
-.contact-form{
+.contact-form {
 	margin: 80px 0 30px;
 	color: #263238;
 	text-align: center;
 	background: #fff;
 }
-.contact-form input[type=text]{
+.contact-form input[type=text] {
 	display: block;
 	width: 82%;
 	line-height: 24px;
@@ -54,13 +54,13 @@
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-.contact-form h3{
+.contact-form h3 {
 	text-transform: uppercase;
 	color:#263238;
 	font-family: "RobotoLight";
 	margin: 20px;
 }
-.contact-form .but{
+.contact-form .but {
 	-webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -o-border-radius: 2px;
@@ -73,7 +73,7 @@
   width: 82%;
   box-shadow: none;
 }
-.contact-form .but:hover{
+.contact-form .but:hover {
 	background: #263238;
 	color: #fff;
 }

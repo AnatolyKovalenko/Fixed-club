@@ -18,7 +18,7 @@
     margin: 0 auto;
 	}
 	.menu li {
-    	display: block;
+    display: block;
 	}
 	.menu img {
 	  float: none; 
@@ -102,7 +102,7 @@
 		margin: 20px 0 20px 35%;
 	}
 	.wheel {
-    	padding:0;
+    padding:0;
 	}
 	#bic{
 		max-width: 100px;
@@ -169,7 +169,7 @@
 		top: -18%;
 	}
 	.wheel {
-    	padding:0;
+    padding:0;
 	}
 	#bic{
 		max-width: 150px;
@@ -344,10 +344,10 @@
 
 	/*Contact-page*/
 	.contact-form {
-    	margin: 20px 0;
+    margin: 20px 0;
 	}
 	.contact-form h3 {
-   		margin: 14px 20px;
+   	margin: 14px 20px;
 	}
 	.contact-form input[type=text] {
 	  width: 82%;
@@ -378,7 +378,7 @@
 	}
 	.content p {
 	  font-size: 20px;
-	   padding: 30% 0;
+	  padding: 30% 0;
 	}
 	.on{
 	  -webkit-transform: translateY(-174px);

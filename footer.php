@@ -10,9 +10,9 @@
 								</i>
 							</span>
 							<p>
-								+38(063)-305-23-86
+								+38(063)-546-74-33
 								<br>
-								+38(067)-912-45-67
+								+38(097)-177-58-96
 							</p>
 						</div>
 					</div>
@@ -60,6 +60,7 @@
 	<script src="<?php bloginfo("template_directory"); ?>/libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="<?php bloginfo("template_directory"); ?>/libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="<?php bloginfo("template_directory"); ?>/js/common.js"></script>
+
 	<!--Preloader JS-->
 	<script type="text/javascript">
 		$(window).on('load', function () {
@@ -69,7 +70,5 @@
 	    $preloader.delay(350).fadeOut('slow');
 		});
 	</script>
-	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
-	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
 </html>

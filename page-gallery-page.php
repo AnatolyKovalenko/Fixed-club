@@ -23,40 +23,40 @@
 					<!--Title price-->
 					<div id="fancyboxTitles" style="display: none;">
 						<div>
-							25000 грн
+							18000 грн
 						</div>
 						<div>
 							16000 грн
 						</div>
 						<div>
-							23000 грн
+							12000 грн
 						</div>
 						<div>
-							22000 грн
+							11000 грн
 						</div>
 						<div>
-							21000 грн
+							10000 грн
+						</div>
+						<div>
+							12000 грн
+						</div>
+						<div>
+							13000 грн
+						</div>
+						<div>
+							13000 грн
 						</div>
 						<div>
 							20000 грн
 						</div>
 						<div>
-							23500 грн
+							13000 грн
 						</div>
 						<div>
-							22400 грн
+							12500 грн
 						</div>
 						<div>
-							24100 грн
-						</div>
-						<div>
-							22300 грн
-						</div>
-						<div>
-							25500 грн
-						</div>
-						<div>
-							21000 грн
+							12000 грн
 						</div>
 					</div>
 					
