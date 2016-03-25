@@ -10,9 +10,10 @@
 	<title><?php the_title(); ?></title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="<?php bloginfo("template_directory"); ?>/images/2.png" />
-	<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/main.css"/>
-	<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/media.css"/>
+	<link rel="shortcut icon" href="<?php bloginfo("template_directory"); ?>/assets/images/wheel.png"/>
+
+	<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/assets/css/main.css"/>
+	<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/assets/css/media.css"/>
 	
 	<!--Preloader style-->
 	<style>
@@ -31,7 +32,7 @@
 		  	position: absolute;
 		  	left: 50%;
 		  	top: 50%;
-		  	background: url('<?php bloginfo("template_directory");?>/images/spinner.gif') no-repeat 50% 50%;
+		  	background: url('<?php bloginfo("template_directory");?>/assets/images/spinner.gif') no-repeat 50% 50%;
 		  	margin: -16px 0 0 -16px;
 		}
 	</style>
@@ -55,7 +56,7 @@
 								</i>
 						</button>
 						<nav class="menu">
-							<img src="<?php bloginfo("template_directory");?>/images/logo/fixed-logo.png" alt="fixed club">
+							<img src="<?php bloginfo("template_directory");?>/assets/images/fixed-logo.png" alt="fixed club">
 							<?php wp_nav_menu('primary');?>
 						</nav>
 					</div>
